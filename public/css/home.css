@@ -1,0 +1,134 @@
+.home{
+    background-color: var(--gris-claro);
+}
+
+/* Header */
+
+.home header{
+    background-color: var(--amarillo);
+}
+.home .logo-buscar{
+    margin: 0 0 15px 15px;
+}
+.home header p{
+    text-align: center;
+    font-size: 12px;
+}
+/* nav-bar */
+.home .nav-bar a{
+    color: black;
+    font-size: 12px;
+}
+.home .nav-bar ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home .burger-menu{
+    margin: 0 44% 20px;
+    display: inline-block;
+    background: var(--celeste);
+    font-size: 20px;
+    padding: 8px 10px;
+    border: 1px solid var(--celeste);
+    color: white;
+    border-radius: 5px;
+}
+/* banner */
+.home .banner{
+    width: 100%;
+}
+/* main */
+.home main{
+    width: 90%;
+    margin:15px;
+    text-align: center;
+}
+.home main .img{
+    width: 100%;
+}
+.home main h2{
+    text-align: left;
+    font-size: 24px;
+    color: var(--gris-oscuro)
+}
+.home main .precio{
+    font-size: 18px;
+}
+.home main .descuentos, .descripciones{
+    font-size: 16px;
+}
+.home main article{
+    text-align: left;
+    border-top: 1px solid #ebebeb;
+    margin: 10px 0;
+}
+.home main article h3{
+    margin: 0 15px;
+    line-height: 50px;
+}
+.home main p{
+    margin:0 15px;
+}
+.home main .fa-truck{
+    margin: 20px;
+    color: green;
+}
+.home main .visitas, .ofertas{
+    margin: -2.5px 0;
+    background-color: white;
+}
+
+/* footer */
+.home footer{
+    margin: 2%;
+    background-color: white;
+}
+.home footer section{
+    text-align: center;
+    font-size: 12px;
+    margin: 30px 20px 30px 20px;
+}
+.home .icon{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.home footer .copyright{
+    text-align: left;
+    margin: 30px 0 10px 10px;
+}
+@media (min-width:0px){
+    .home .nav-bar ul{
+        display: none;
+    }
+    .home .burger-menu{
+        margin: 20px 45%;
+    }
+    .home main .descripciones{
+        display:none;
+    }
+    .home main .descuentos{
+        padding-bottom: 20px;
+        color: green;
+        text-transform: lowercase;
+    }
+@media (min-width: 361px) {
+    .home main .descripciones{
+        display:block;
+    }
+    .home .nav-bar ul{
+        display: block;
+    }
+    .home main article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+}
+@media (min-width: 769px){
+    .home .burger-menu{
+        margin: 20px 47.2%;
+    }
+    .home main article{
+        width: 94.5vw;
+    }
+}
+}
